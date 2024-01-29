@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+:root{
+    --cor1:hsl(4, 100%, 67%);
+    --cor2:hsl(234, 29%, 20%);
+    --cor3:hsl(235, 18%, 26%);
+    --cor4:hsl(231, 7%, 60%);
+    --cor5:hsl(0, 0%, 100%);
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor3);
+    font-family: 'roboto',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#formula{
+    width: 800px;
+    padding: 10px;
+    background-color: var(--cor5);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#formula form{
+    padding: 30px 25px 40px 25px;
+}
+
+#formula h1{
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    font-size: 2.6em;
+}
+
+#formula p{
+    padding: 10px 0px 10px 0px;
+}
+
+#formula ul{
+    padding-left: 28px;
+    list-style-type: none;
+    list-style-image: url(../images/icon-list.svg);
+}
+
+#formula ul li{
+    padding: 5px;
+}
+
+#ilus{
+    width: 350px;  
+    background-image: url(../images/illustration-sign-up-desktop.svg);
+}
+
+
+#address{
+    padding: 0px;
+    margin: 0px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#address > span{
+    color: red;
+    padding-right: 40px;
+} 
+
+#formula label{
+    font-weight: 700;
+}
+
+
+#formula input{
+    padding: 13px;
+    margin: 5px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+
+#iemail{
+    width: 330px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    
+}
+
+#botao{
+    width: 360px;
+    border: 0px solid white;
+    background-color: var(--cor2);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: var(--cor1);
+}
+
+#sucesso{
+    padding: 40px 60px 40px 60px;
+    width: 285px;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+}
+
+#sucesso img{
+    height: 50px;
+}
+
+#sucesso h1{
+    margin: 20px 0px 15px 0px;
+    font-size: 3em;
+}
+
+#sucesso input{
+    width: 275px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 10px;
+    background-color: var(--cor2);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#sucesso input:hover{
+    background-image: linear-gradient(45deg, #ff5379,var(--cor1));
+    box-shadow: 5px 5px 5px hsla(4, 100%, 67%, 0.639);
+}
+
+#informar{
+    font-weight: 700;
+}
